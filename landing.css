@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: auto;
+    height: 50px;
+    border: 2px solid white;
+    background-color: cornsilk;
+    display: flex;
+}
+.footer{
+    width: auto;
+    height: 280px;
+    border: 1px solid #DDDDDD;
+    background-color: #B2B1B9;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    z-index: 1;
+}
+.para1{
+  margin-right: 180px;    
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+}
+.logo1{
+    width: 80px;
+    height: 80px;
+    margin-left: 500px;
+}
+.para2{
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.logo1,.para2{
+    display: flex;
+}
+.header p{
+    display: flex;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.header a{
+    display: flex;
+    font-family: cursive;
+    font-size: 22px;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+}
+.header a:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid crimson;
+    transition: 0.4s linear;
+}
+.header a:hover:before{
+    width: 110%;
+}
+.landing-pages{
+    width: 1349px;
+    height: 340px;
+}
+.para{
+    margin: 0 -10px 0 30px;
+}
+.footer ul{
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    margin-left: 500px;
+}
+.p1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #872341;
+    cursor: pointer;
+}
+.p1:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid #720455;
+    transition: 0.4s linear;
+}
+.p1:hover:before{
+    width: 100%;
+}
+.footer .ul1{
+    margin-left: 540px;
+}
+.ul1 i{
+    font-size: 25px;
+}
+#facebook{
+    color: blue;
+}
+#insta{
+    color:crimson;
+}
+#twitter{
+    color: cornflowerblue;
+}
+#whatsapp{
+    color: green;
+}
+#linkedin{
+    color:#1F6E8C;
+}
+.detail-box{
+    width: auto;
+    height: 230px;
+    border: 0 solid;
+    background: linear-gradient(to right,rgb(214, 183, 124),cornsilk);
+    display: flex;
+}
+.detail-1{
+    display: grid;
+    margin: 20px 50px 0 50px;
+}
+.detail-1 img{
+    width: 50px;
+    height: 50px;
+}
+.personal{
+    display: flex;
+    width: auto;
+    height: 300px;
+    border: 0 solid ;
+    background: linear-gradient(to right,cornsilk,rgb(214, 183, 124));
+}
+.personal p{
+    text-align: justify;
+    margin: 50px 30px 0 0;
+    font-family: cursive;
+    font-size: 14px;
+}
+.personal img{
+    width: 300px;
+    height: 300px;
+}
+.tableData{
+    background-color: whitesmoke;
+    border: 0 solid;
+}
+.information{
+    display: grid;
+}
+.discription{
+    width: auto;
+    height: 280px;
+    border: 0 solid ;
+    background-color: whitesmoke;
+    display: flex;
+}
+.discription p{
+    margin: 80px 50px 0 20px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.discription img{
+    width: 220px;
+    height: 220px;
+    margin: 25px 0 0 50px;
+}
+.Data{
+    display: flex;
+    width: 670px;
+}
+.Data img{
+    width: 180px;
+    height: 130px;
+    margin: 15px 5px 10px 20px;
+}
+.Data p{
+    margin-top: 40px;
+    text-align: center;
+}
+.row{
+    display: flex;
+}
